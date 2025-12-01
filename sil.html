@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Hesap Silme Talebi - Mektubatı Rabbani</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mektubatı Rabbani uygulaması için hesap ve veri silme talebi sayfası.">
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+      line-height: 1.6;
+      background-color: #f5f5f5;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+    }
+    h1, h2, h3 {
+      margin-top: 0;
+    }
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 1.8rem;
+    }
+    h3 {
+      font-size: 1.05rem;
+      margin-top: 1.2rem;
+    }
+    p {
+      margin: 0.4rem 0;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    .highlight {
+      background: #fff8e1;
+      border-left: 4px solid #ffc107;
+      padding: 12px 16px;
+      margin: 16px 0;
+      border-radius: 8px;
+      font-size: 0.95rem;
+    }
+    .email-box {
+      background: #e3f2fd;
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin: 16px 0;
+      font-size: 0.95rem;
+    }
+    .email-box code {
+      background: rgba(0,0,0,0.04);
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    .form-wrapper {
+      margin-top: 16px;
+      border-top: 1px solid #eee;
+      padding-top: 16px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: 500;
+      font-size: 0.95rem;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 8px 10px;
+      margin-top: 4px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 0.95rem;
+      box-sizing: border-box;
+      font-family: inherit;
+    }
+    textarea {
+      min-height: 90px;
+      resize: vertical;
+    }
+    button, input[type="submit"] {
+      margin-top: 16px;
+      padding: 10px 18px;
+      border-radius: 999px;
+      border: none;
+      cursor: pointer;
+      font-size: 0.95rem;
+      font-weight: 600;
+      background: #1976d2;
+      color: white;
+    }
+    button:hover,
+    input[type="submit"]:hover {
+      filter: brightness(0.95);
+    }
+    small {
+      font-size: 0.8rem;
+      color: #666;
+    }
+    footer {
+      margin-top: 32px;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Hesap Silme Talebi</h1>
+    <p><strong>Uygulama:</strong> Mektubatı Rabbani</p>
+    <p><strong>Geliştirici:</strong> Nibras Apps</p>
+
+    <div class="highlight">
+      Bu sayfa, Mektubatı Rabbani uygulamasındaki hesabınızın ve ilişkili verilerinizin silinmesini talep etmeniz için hazırlanmıştır.
+      Aşağıdaki adımları izleyerek hesabınızın silinmesini isteyebilirsiniz.
+    </div>
+
+    <h2>1. Silme talebi için izlenecek adımlar</h2>
+    <p>Hesabınızın silinmesini istemek için aşağıdaki yöntemleri kullanabilirsiniz:</p>
+    <ul>
+      <li>Aşağıdaki formu doldurup cihazınızdaki e-posta uygulaması üzerinden gönderebilirsiniz.</li>
+      <li>Veya doğrudan aşağıdaki e-posta adresine manuel bir talep gönderebilirsiniz.</li>
+    </ul>
+
+    <div class="email-box">
+      <p><strong>Hesap silme talepleri için e-posta adresi:</strong></p>
+      <p>
+        <a href="mailto:mert.toy16@gmail.com?subject=Mektubatı%20Rabbani%20-%20Hesap%20Silme%20Talebi">
+          mert.toy16@gmail.com
+        </a>
+      </p>
+      <p><small>Lütfen e-postayı gönderirken uygulamaya giriş yaptığınız Google hesabını kullanmanız önerilir.</small></p>
+    </div>
+
+    <h3>E-postada bulunması gereken bilgiler</h3>
+    <ul>
+      <li>Uygulama adı: <strong>Mektubatı Rabbani</strong></li>
+      <li>Giriş yaptığınız Google e-posta adresi</li>
+      <li>Hesabınızın tamamen silinmesini istediğinize dair açık bir ifade</li>
+      <li>İsteğe bağlı: Ek notlar</li>
+    </ul>
+
+    <div class="form-wrapper">
+      <h2>2. Hızlı talep formu (e-posta ile gönderim)</h2>
+      <p>Bu formu doldurduğunuzda cihazınızdaki e-posta uygulaması açılır ve bilgiler gönderilmeye hazır hale gelir.</p>
+
+      <form action="mailto:mert.toy16@gmail.com" method="post" enctype="text/plain">
+        <label for="email">Google hesabı e-posta adresiniz:</label>
+        <input type="email" id="email" name="Google Hesabı E-posta" required>
+
+        <label for="request-type">Talep türü:</label>
+        <input type="text" id="request-type" name="Talep Türü" value="Hesabımın ve tüm ilişkili verilerimin silinmesini istiyorum." />
+
+        <label for="details">Ek bilgiler (isteğe bağlı):</label>
+        <textarea id="details" name="Ek Bilgiler"></textarea>
+
+        <input type="submit" value="Hesap silme talebi e-postasını oluştur">
+        <small>E-posta taslağı açılacak, gönderim öncesi kontrol edebilirsiniz.</small>
+      </form>
+    </div>
+
+    <h2>3. Hangi veriler silinir?</h2>
+    <ul>
+      <li>Google hesabınız ile ilişkili uygulama içi kayıtlar</li>
+      <li>Profil bilgileriniz (ad, fotoğraf URL’si vb.)</li>
+      <li>Uygulama içi kişisel ayarlarınız</li>
+    </ul>
+
+    <h2>4. Tutulabilecek veriler</h2>
+    <p>Aşağıdaki veriler yasal zorunluluklar nedeniyle sınırlı süreyle tutulabilir:</p>
+    <ul>
+      <li>Güvenlik ve hata kayıtları</li>
+      <li>Kimliğinizden ayrıştırılmış anonim kullanım verileri</li>
+    </ul>
+
+    <h2>5. İşlem süresi</h2>
+    <p>
+      Hesap silme işlemi genellikle <strong>30 gün</strong> içinde tamamlanır.
+      En geç <strong>90 gün</strong> içinde tüm talepler sonuçlandırılır.
+    </p>
+
+    <h2>6. Ek destek</h2>
+    <p>Her türlü soru için bize şu adresten ulaşabilirsiniz:</p>
+    <p>
+      <a href="mailto:mert.toy16@gmail.com?subject=Mektubatı%20Rabbani%20-%20Veri%20Silme%20Sorusu">
+        Destek e-posta adresi
+      </a>
+    </p>
+
+  </div>
+
+  <footer>
+    &copy; <span id="year"></span> Nibras Apps • Mektubatı Rabbani
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
